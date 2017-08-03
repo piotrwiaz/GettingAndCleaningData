@@ -1,1 +1,13 @@
-CodeBook
+This is a code book for tidy_dataset. The tidy_dataset is based on the data collected from the accelerometers from the Samsung Galaxy S smartphone, available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip (the .zip file contains original code book for the source dataset).
+
+For information not provided in the current code bok, please refer to the code bok for original dataset.
+
+The dataset contains 11880 observations of 6 variables. The variables are the following:
+
+    subject: an identifier of the subject who carried out the experiment
+    activity: type of activity performed ("LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS")
+    variable: a measurement (for details, please refer to the original dataset)
+    axis: on which axis the measurement was performed ("X", "Y", "Z" or "NA")
+    statistic: a summary statistic that has been used ("mean" or "std")
+    average.value: average value of a statistic for given subject and activity
+
