@@ -1,9 +1,8 @@
 packages(dplyr)
 packages(tidyr)
 
-defaultwd <- getwd()
-
-setwd("C:/Users/wiazecp/Desktop/Coursera/Getting and Cleaning Data/project/UCI HAR Dataset")
+#defaultwd <- getwd()
+#setwd("C:/Users/wiazecp/Desktop/Coursera/Getting and Cleaning Data/project/UCI HAR Dataset")
 
 activity.labels <- read.delim("activity_labels.txt", header = FALSE, stringsAsFactors = FALSE)
 colnames(activity.labels) <- "aux"
@@ -97,4 +96,4 @@ tidy.dataset <- data.total %>%
         ) %>%
     select(subject, activity, variable, axis, statistic, average.value)
 
-setwd(defaultwd)
+#setwd(defaultwd)
